@@ -42,6 +42,8 @@ body {
   cursor: pointer;
 }
 input[type="color"] {
+  position: absolute;
+  right: 0;
   visibility: hidden;
 }
 .range-group {
@@ -62,8 +64,8 @@ input[type="range"] {
   width: 100%;
 }
 .buttons-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .buttons-container button {
   font-size: 20px;
